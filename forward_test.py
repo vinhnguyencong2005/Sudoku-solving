@@ -4,7 +4,7 @@ import pathlib
 import base64
 
 # Initialize the client
-client = genai.Client(api_key="AIzaSyCN0Q2GKq-iN6TTaJ_8tXw_h-RTA_dBYos")  # Replace with secure method!
+client = genai.Client(api_key="Your-api-key")  # Replace with secure method!
 
 # Path to your image
 text_prompt = "Sorry to borthering you, please answer me only the grid of the sudoku game, say nothing more. The output format with no space for example:\n" + "|1|2|3|4|7|n|n|n|n|" + "|2|n|n|n|n|n|n|n|n|\n" +  "|3|n|n|n|n|n|n|n|n|\n" + "|4|n|n|n|n|n|n|n|n|\n" + "|5|n|n|n|n|n|n|n|n|\n" + "|6|n|n|n|n|n|n|n|n|\n" + "|7|n|n|n|n|n|n|n|n|\n" + "|8|n|n|n|n|n|n|n|n|\n" + "|9|n|n|n|n|n|n|n|n|\n" + "If not thing there, put n there. No gap between them, only '|' there"  # e.g.,"C:/Users/summo/Data/image.jpg"
